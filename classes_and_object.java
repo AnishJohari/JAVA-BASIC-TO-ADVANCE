@@ -1,17 +1,4 @@
 public class classes_and_object {
-    public static class Car{
-        String model, color;
-        short year;
-        void startEngine(){
-            System.out.println("The " + color + " " + model + " is starting.");
-        }
-        void displayInfo(){
-            System.out.println("COLOR : "+color);
-            System.out.println("MODEL : "+model);
-            System.out.println("YEAR : "+year);
-        }
-
-    }
     public static void main(String args[]){
         Car car1 = new Car();
         car1.color = "Red";
@@ -34,4 +21,15 @@ public class classes_and_object {
         car2.displayInfo();
     }
 }
-
+class Car{
+    String model, color;
+    short year;
+    void startEngine(){
+        System.out.println("The " + color + " " + model + " is starting.");
+    }
+    void displayInfo(){
+        System.out.println("COLOR : "+color);
+        System.out.println("MODEL : "+model);
+        System.out.println("YEAR : "+year);
+    }
+}

@@ -29,6 +29,6 @@ class Student{
 
 class teacher extends Student{
     void talk(){
-        System.out.println("this is the methods from teacher of );
+        System.out.println("this is the methods from teacher of ");
     }
 }
