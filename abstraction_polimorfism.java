@@ -1,13 +1,11 @@
 // ENCAPSULATION 
 // INHERITENCE
-
-import java.util.Scanner;
+// ABSTRACTION
 public class abstraction_polimorfism {
     public static void main(String args[]){
-        Scanner input = new Scanner(System.in);
+        
         // it is a global variable
         // int i = 0;
-        input.close();
         Student s1 = new Student();
         System.out.println(s1.give_roll());
         System.out.println(s1.give_name());
@@ -26,6 +24,7 @@ class Student{
         return Name;
     }
 }
+// we inherit student class in teacher class now all the things of students are accessible to teacher class
 
 class teacher extends Student{
     void talk(){
